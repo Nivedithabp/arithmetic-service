@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Define a route for the root path
 app.get('/', (req, res) => {
-    res.send('Arithmetic service !');
+    res.send('Arithmetic service');
 });
 
 app.listen(port, () => {
