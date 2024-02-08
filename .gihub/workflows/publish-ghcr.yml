@@ -21,5 +21,5 @@ jobs:
     #     DOCKER_BUILDKIT: 1
       run: |
         docker login --username Nivedithabp --password ${{secrets.ACCESS_TOKEN}} ghcr.io
-        docker build -t ghrc.io/Nivedithabp/arithmetic-service:latest --file Dockerfile .
-        docker push ghrc.io/Nivedithabp/arithmetic-service:latest
+        docker build -t ghrc.io/nivedithabp/arithmetic-service:latest --file Dockerfile .
+        docker push ghrc.io/nivedithabp/arithmetic-service:latest
