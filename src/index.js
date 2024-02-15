@@ -1,12 +1,4 @@
-// const express = require('express')
-// const app = express();
-// const port = 3000;
 
-// app.get('/',(req,res) => {
-//     res.send('Arithmetic service')
-// });
-
-// app.listen(port);
 
 const express = require('express');
 const cors = require('cors');
@@ -32,5 +24,5 @@ app.get('/add/:n/:m', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
+    console.log(`Server is running on the  http://localhost:${port}`);
 });
